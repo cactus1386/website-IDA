@@ -1,10 +1,10 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import'../CSS/BGC.css';
+import'../CSS/General.css';
 import "https://kit.fontawesome.com/6c2a0de8a3.js" ;
 function Footer() {
-  return (
-    <footer className="bg-color text-light py-5 fontv">
+  return (<div class="pt-5">
+    <footer className=" text-primary py-5 fontv border-top border-dark">
       <div className="container">
         <div className="row">
           <div className="col-md-4">
@@ -15,10 +15,10 @@ function Footer() {
           <div className="col-md-3">
             <h5>دسترسی سریع</h5>
             <ul>
-              <li><a class="link"href="/">خانه</a></li>
-              <li><a class="link" href="/about">درباره ما</a></li>
-              <li><a class="link" href="#">خدمات</a></li>
-              <li><a class="link" href="#">ارتباط با ما</a></li>
+              <li><a class="link text-primary"href="/">خانه</a></li>
+              <li><a class="link text-primary" href="/about">درباره ما</a></li>
+              <li><a class="link text-primary" href="#">خدمات</a></li>
+              <li><a class="link text-primary" href="#">ارتباط با ما</a></li>
             </ul>
           </div>
           <div className="col-md-3 ">
@@ -26,15 +26,15 @@ function Footer() {
             <div class=" row">
                 <div>
                 <i class="fa-solid fa-location-dot text-dark pt-1"></i>
-                    <a class="link"> زﻧﺠﺎن، ﺑﻠﻮار ﭘﺮﻓﺴﻮر ﺛﺒﻮﺗﯽ، ﭘــﺎرك ﻋﻠــﻢ و ﻓﻨـــــﺎورى ﺗﺤﺼﯿﻼت ﺗﮑﻤﯿﻠﻰ ﻋﻠﻮم زﻧﺠﺎن، ﻃﺒﻘﻪ اول، واﺣﺪ107 </a>
+                    <a class="link text-primary"> زﻧﺠﺎن، ﺑﻠﻮار ﭘﺮﻓﺴﻮر ﺛﺒﻮﺗﯽ، ﭘــﺎرك ﻋﻠــﻢ و ﻓﻨـــــﺎورى ﺗﺤﺼﯿﻼت ﺗﮑﻤﯿﻠﻰ ﻋﻠﻮم زﻧﺠﺎن، ﻃﺒﻘﻪ اول، واﺣﺪ107 </a>
                 </div>
                 <div>
                 <i class="fa-solid fa-phone text-dark pt-3 p-1"></i>
-                    <a  class="link">02433154315</a>
+                    <a  class="link text-primary">02433154315</a>
                 </div>
                 <div>
                 <i class="fa-solid fa-envelope text-dark pt-3 p-1"></i>
-                    <a  class="link">info@ida-ltd.com</a>
+                    <a  class="link text-primary">info@ida-ltd.com</a>
                 </div>
                 <div>
                     <div class="pt-2 " style={{ paddingRight: '25px' }}>
@@ -52,6 +52,7 @@ function Footer() {
         </div>
       </div>
     </footer>
+    </div>
   );
 }
 

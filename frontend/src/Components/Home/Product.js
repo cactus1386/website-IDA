@@ -19,10 +19,9 @@ function Product() {
     { Name: "نرم افزار اسکادا میژن", Description: "مانیتور کردن یا کنترل فرایندهای شیمیایی، حمل و نقل، سیستم‌های آبرسانی شهری، کنترل تولید و توزیع انرژی الکتریکی و در خطوط نفت و گاز و سایر فرایندهای گسترده، نیاز به سامانه های کنترل و اندازه گیری در مقیاس بزرگ می باشد. این سامانه ای می‌تواند بر پایه داده‌های بدست‌آمده دستورهای لازم را صادر کند. همچنین این داده‌ها در یک سیستم ثبت اطلاعات که قابلیت ترسیم نمودار و تحلیل اطلاعات را هم دارد. ", Img: applic },
   ]);
 
-  return (
-    <div className="container">
-      <div className="row mb-3">
-        <div className="col-md-12" style={{ height: '50px' }}>
+  return (<>
+      <div className="pt-3 row mb-3">
+        <div className="" style={{ height: '50px', width:'100%'}}>
           <div
             className={`flip-boxt ${isFlipped ? 'flipped' : ''}`}
             onClick={handleFlip}
@@ -62,7 +61,7 @@ function Product() {
           </div>
         ))}
       </div>
-    </div>
+</>
   );
 }
 

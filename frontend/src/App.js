@@ -4,6 +4,7 @@ import FlipBox from './Components/Home/Card'
 import CustomNavbar from './Components/Navbar';
 import Home from './Components/Home';
 import Product from './Components/Home/Product';
+import Footer from './Components/Footer';
 
 const App = () => {
 
@@ -17,6 +18,7 @@ const App = () => {
           <Route path='/products' element={<Product />} />
         </Routes>
       </Router>
+      <Footer />
     </>
   );
 };

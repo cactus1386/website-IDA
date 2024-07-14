@@ -15,7 +15,7 @@ function Slider() {
     };
 
     return (
-        <div class='p-3'>
+        <div class='pt-3'>
             <div class="col-md-12">
                 <div className="col-md-12" style={{ height: '50px' }}>
                     <div

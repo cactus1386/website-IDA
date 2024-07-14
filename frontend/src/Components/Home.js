@@ -5,7 +5,7 @@ import Product from './Home/Product';
 
 const Home = () => {
     return (
-        <div className="col-md-12">
+        <div className="container-xxl">
             <Slider />
             <Product/>
 
