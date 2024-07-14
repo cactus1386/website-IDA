@@ -46,3 +46,6 @@
   color: #008cff !important;
   transform: rotatex(180deg);
 }
+.img{
+  height: 500px;
+}

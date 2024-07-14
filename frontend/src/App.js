@@ -1,10 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
-import Product from './Components/Home/Product'
+import FlipBox from './Components/Home/Card'
 import CustomNavbar from './Components/Navbar';
 import Home from './Components/Home';
-import Footer from './Components/Footer';
-import FlipBox from './Components/Home/Card';
 
 const App = () => {
 
@@ -14,10 +12,9 @@ const App = () => {
       <Router>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/products' element={<Product />} />
+          <Route path='/flip' element={<FlipBox />} />
         </Routes>
       </Router>
-      <Footer />
     </>
   );
 };
