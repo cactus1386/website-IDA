@@ -5,8 +5,9 @@ import '../CSS/Navbar.css';
 import img from '../Assets/IDA.png'
 
 const CustomNavbar = () => {
-    return (
-        <Navbar expand="lg" className="custom-navbar">
+    return (<>
+        <div class="bg-primary col-md-12"  style={{ height: '10px' }}></div>
+        <Navbar className="custom-navbar navbar-expand-md shadow"  style={{ height: '75px' }}>
             <Navbar.Brand href="/">
                 <img
                     src={img}
@@ -15,7 +16,7 @@ const CustomNavbar = () => {
                 />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
+            <Navbar.Collapse id="basic-navbar-nav" className="justify-content-start" style={{ paddingRight: '120px' }}>
                 <Nav className="nav-links fontv">
                     <Nav.Link href="/">خانه</Nav.Link>
                     <Nav.Link href="/products">محصولات</Nav.Link>
@@ -25,7 +26,7 @@ const CustomNavbar = () => {
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
-    );
+        </>);
 };
 
 export default CustomNavbar;
