@@ -4,7 +4,7 @@ import'../CSS/General.css';
 import "https://kit.fontawesome.com/6c2a0de8a3.js" ;
 function Footer() {
   return (<div class="pt-5">
-    <footer className=" text-primary py-5 fontv border-top border-dark">
+    <footer className=" text-primary py-5 fontv border-top">
       <div className="container">
         <div className="row">
           <div className="col-md-4">
@@ -47,8 +47,7 @@ function Footer() {
           </div>
         </div>
         <hr />
-        <div className="container d-flex justify-content-center">
-            <p class="h5">&copy;  2024 ida Intelligent, Data, Aim </p>
+        <div className="">
         </div>
       </div>
     </footer>
