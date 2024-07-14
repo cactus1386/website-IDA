@@ -89,7 +89,9 @@
   border: #1d87ff;
   border-radius: 10px;
   background-color: #1d87ff;
-  padding-top: 9px;
+  padding-top: 80px;
+  padding-left: 10px;
+  padding-right: 10px;
   box-shadow:1px 1px 1px #c2c2c2;
   color: #1d87ff;
   transform: rotatex(180deg);
