@@ -53,7 +53,7 @@ function Product() {
                       <img className="w-100 pt-5" src={product.Img} alt={product.Name} />
                     </div>
                   </div>
-                  <div className="flip-box-back" dir="rtl">
+                  <div className="flip-box-backk" dir="rtl">
                     <h5 className="fontv text-light h5">{product.Description}</h5>
                   </div>
                 </div>

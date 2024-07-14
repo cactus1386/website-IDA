@@ -28,12 +28,12 @@
 }
 
 .flip-box-frontt {
-  border: #ffffff;
+  border: #1d87ff;
   border-radius: 10px;
-  background-color: #ffffff;
+  background-color: #1d87ff;
   padding-top: 7px;
   box-shadow:1px 1px 1px #b5b5b5;
-  color: #1d87ff;
+  color: #ffffff;
 
 }
 
@@ -89,9 +89,9 @@
   border: #1d87ff;
   border-radius: 10px;
   background-color: #1d87ff;
-  padding-top: 80px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-top: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
   box-shadow:1px 1px 1px #c2c2c2;
   color: #1d87ff;
   transform: rotatex(180deg);
