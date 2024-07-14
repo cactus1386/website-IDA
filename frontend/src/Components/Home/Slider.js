@@ -27,7 +27,7 @@ function Slider() {
                                 <h5 class="pb-2 fontv h5">همواره پیشرفت</h5>
                             </div>
                             <div className="flip-box-back" dir="rtl">
-                                <h5 class=" fontv  h5 ">شرکت شرکت شرکت</h5>
+                                <h5 class=" fontv h5 ">شرکت شرکت شرکت</h5>
                             </div>
                         </div>
                     </div>
