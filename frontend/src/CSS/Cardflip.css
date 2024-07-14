@@ -32,7 +32,7 @@
   border-radius: 10px;
   background-color: #ffffff;
   padding-top: 7px;
-  box-shadow:1px 1px 1px #b5b5b5;
+  box-shadow: 1px 1px 1px #b5b5b5;
   color: #1d87ff;
 
 }
@@ -42,7 +42,7 @@
   border-radius: 10px;
   background-color: #ffffff;
   padding-top: 9px;
-  box-shadow:1px 1px 1px #c2c2c2;
+  box-shadow: 1px 1px 1px #c2c2c2;
   color: #1d87ff;
   transform: rotatex(180deg);
 }
@@ -79,18 +79,18 @@
 .flip-box-front {
   border: #1d87ff;
   border-radius: 10px;
-  background-color: #1d87ff;
+  background-color: #1d87ff !important;
   color: white;
 
 }
 
 .flip-box-back {
-  border: #1d87ff;
+  border: #1d87ff !important;
   border-radius: 15px;
-  background-color: #1d87ff;
+  background-color: #1d87ff !important;
   padding-top: 60px;
   padding-left: 25px;
   padding-right: 25px;
-  color: white;
+  color: white !important;
   transform: rotatex(180deg);
 }

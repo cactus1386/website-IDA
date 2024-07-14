@@ -6,7 +6,7 @@ import img from '../Assets/IDA.png'
 
 const CustomNavbar = () => {
     return (<>
-        <Navbar className="custom-navbar navbar-expand-md shadow" style={{ height: '75px' }}>
+        <Navbar className="custom-navbar navbar-expand-md shadow" style={{ height: '80px' }}>
             <Navbar.Brand href="/">
                 <img
                     src={img}
