@@ -4,7 +4,7 @@ import'../CSS/BGC.css';
 import "https://kit.fontawesome.com/6c2a0de8a3.js" ;
 function Footer() {
   return (
-    <footer className="bg-gradiant text-light py-5 fontv">
+    <footer className="bg-color text-light py-5 fontv">
       <div className="container">
         <div className="row">
           <div className="col-md-4">
@@ -38,9 +38,9 @@ function Footer() {
                 </div>
                 <div>
                     <div class="pt-2 " style={{ paddingRight: '25px' }}>
-                        <a href="https://www.instagram.com/" class="hover"><i class="fa-brands fa-instagram text-primary p-1 h3 border rounded-circle bg-light"></i></a>
-                        <a href="https://twitter.com/share?url=ida-ltd.ir/"><i class="fa-brands fa-twitter text-primary p-1 h3 border rounded-circle bg-light" ></i></a>
-                        <a href="https://www.facebook.com/sharer/sharer.php?u=ida-ltd.ir/"><i class="fa-brands fa-facebook text-primary p-1 h3 border rounded-circle bg-light " ></i></a>
+                        <a href="https://www.instagram.com/" class="hover"><i class="fa-brands fa-instagram text-dark p-1 h4 border rounded-circle bg-light"></i></a>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=ida-ltd.ir/"><i class="fa-brands fa-facebook text-dark p-1 h4 border rounded-circle bg-light " ></i></a>
+                        <a href="https://twitter.com/share?url=ida-ltd.ir/"><i class="fa-brands fa-twitter text-dark p-1 h4 border rounded-circle bg-light" ></i></a>
                     </div>
                 </div>
             </div>
