@@ -1,8 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.css'
-import dimond from '../Assets/Dimond.png'
+import dimond from '../../Assets/Dimond.png'
 import React, { useState } from 'react';
-import "../CSS/Cardflip.css";
-import "../font/font.css";
+import "../../CSS/Cardflip.css";
+import "../../font/font.css";
 
 
 function FlipBox() {

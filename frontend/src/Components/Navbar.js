@@ -16,7 +16,7 @@ const CustomNavbar = () => {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
-                <Nav className="nav-links">
+                <Nav className="nav-links fontv">
                     <Nav.Link href="/">خانه</Nav.Link>
                     <Nav.Link href="/products">محصولات</Nav.Link>
                     <Nav.Link href="/services">سرویس ها</Nav.Link>

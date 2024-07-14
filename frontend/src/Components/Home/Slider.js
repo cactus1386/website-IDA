@@ -1,10 +1,12 @@
 import { Carousel } from 'react-bootstrap';
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css'
-    ; import img1 from '../Assets/S1.jpg'
-    ; import img2 from '../Assets/S2.jpg'
-import "../CSS/Slider.css";
-import "../font/font.css";
+import img1 from '../../Assets/S1.jpg'
+import img2 from '../../Assets/S2.jpg'
+import "../../CSS/Slider.css";
+import "../../font/font.css";
+
+
 function Slider() {
     const [isFlipped, setIsFlipped] = useState(false);
 
@@ -15,7 +17,7 @@ function Slider() {
     return (
         <div class='p-3'>
             <div class="col-md-12">
-                <div className="col-md-12 " style={{ height: '50px' }}>
+                <div className="col-md-12" style={{ height: '50px' }}>
                     <div
                         className={`flip-box ${isFlipped ? 'flipped' : ''}`}
                         onClick={handleFlip}
@@ -31,7 +33,7 @@ function Slider() {
                     </div>
                 </div>
                 <div class="d-flex justify-content-center pt-3">
-                    <div class="col-md-9">
+                    <div class="col-md-12">
                         <Carousel>
                             <Carousel.Item>
                                 <img className="d-block w-100" src={img1} />

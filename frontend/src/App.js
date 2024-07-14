@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
-import Card from './Components/Slider';
-import FlipBox from './Components/Card'
+import Card from './Components/Home/Slider';
+import FlipBox from './Components/Home/Card'
 import CustomNavbar from './Components/Navbar';
 
 const App = () => {

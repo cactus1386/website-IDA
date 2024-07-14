@@ -30,19 +30,19 @@
 .flip-box-front {
   border: #ffffff;
   border-radius: 10px;
-  background-color: #ffffff;
+  background-color: #008cff !important;
   padding-top: 7px;
-  box-shadow:1px 1px 1px #b5b5b5;
-  color: #FFAA1D;
+  box-shadow: 1px 1px 1px #b5b5b5;
+  color: #ffffff;
 
 }
 
 .flip-box-back {
   border: #ffffff;
   border-radius: 10px;
-  background-color: #ffffff;
+  background-color: #ffffff !important;
   padding-top: 9px;
-  box-shadow:1px 1px 1px #c2c2c2;
-  color: #FFAA1D;
+  box-shadow: 1px 1px 1px #c2c2c2;
+  color: #008cff !important;
   transform: rotatex(180deg);
 }
