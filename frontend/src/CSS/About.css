@@ -1,0 +1,50 @@
+/* src/CSS/About.css */
+.container {
+    padding: 20px;
+}
+
+h1,
+h2 {
+    font-family: 'Vazir', sans-serif;
+    color: #333;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.card-text {
+    color: #777;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    width: 400px;
+}
+
+
+.section {
+    margin-top: 60px;
+    /* فاصله بالا */
+    margin-bottom: 60px;
+    /* فاصله پایین */
+}
+
+.section img {
+    margin-right: 20px;
+    /* فاصله از متن */
+}

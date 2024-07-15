@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div className="container-fluid">
             <Slider />
-            <Product/>
+            <Product />
 
         </div>
     );
