@@ -2,12 +2,28 @@ import 'bootstrap/dist/css/bootstrap.css';
 import applic from '../../Assets/applic.png';
 import internet from '../../Assets/internet.png';
 import plc from '../../Assets/plc.png';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import "../../CSS/Cardflip.css";
 import "../../CSS/General.css";
 import "../../font/font.css";
+import '../../CSS/Animation.css';
+
 
 function Product() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const handleScroll = () => {
+    if (window.scrollY > 300) { // Change this value to the position where you want the animation to trigger
+      setIsVisible(true);
+    }
+  };
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleFlip = () => {
@@ -21,48 +37,50 @@ function Product() {
   ]);
 
   return (<>
-      <div className="pt-3 row mb-3">
-        <div className="" style={{ height: '50px', width:'100%'}}>
-          <div
-            className={`flip-boxt ${isFlipped ? 'flipped' : ''}`}
-            onClick={handleFlip}
-          >
-            <div className="flip-box-innert">
-              <div className="flip-box-frontt">
-                <h5 className="pb-2 fontv h5">محصولات</h5>
-              </div>
-              <div className="flip-box-backt" dir="rtl">
-                <h5 className="fontv h5">شرکت هوش داده هدف</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="row">
-        {Products.map((product, index) => (
-          <div key={index} className="col-md-4 pt-3">
-            <div className="col" style={{ height: '450px' }}>
+        <div className={`slide-intori ${isVisible ? 'visible' : ''}`}>
+          <div className="pt-3 row mb-3">
+            <div className="" style={{ height: '50px', width:'100%'}}>
               <div
-                className={`flip-box ${isFlipped ? 'flipped' : ''}`}
+                className={`flip-boxt ${isFlipped ? 'flipped' : ''}`}
                 onClick={handleFlip}
               >
-                <div className="flip-box-inner">
-                  <div className="flip-box-front">
-                    <div className="d-flex justify-content-center row">
-                      <h2 className="pt-3 fontv text-light">{product.Name}</h2>
-                      <img className="w-100 pt-5" src={product.Img} alt={product.Name} />
-                    </div>
+                <div className="flip-box-innert">
+                  <div className="flip-box-frontt">
+                    <h5 className="pb-2 fontv h5">محصولات</h5>
                   </div>
-                  <div className="flip-box-backk" dir="rtl">
-                    <h5 className="fontv text-light h5">{product.Description}</h5>
-                    <div class="pt-3 fontv"><a href="/pi"class="link"><button class="btn btn-outline-light btn-md col-md-12 ">اطلاعات بیشتر</button></a></div>
+                  <div className="flip-box-backt" dir="rtl">
+                    <h5 className="fontv h5">شرکت هوش داده هدف</h5>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        ))}
-      </div>
+          <div className="row">
+            {Products.slice(0,3).map((product, index) => (
+              <div key={index} className="col-md-4 pt-3">
+                <div className="col" style={{ height: '450px' }}>
+                  <div
+                    className={`flip-box ${isFlipped ? 'flipped' : ''}`}
+                    onClick={handleFlip}
+                  >
+                    <div className="flip-box-inner">
+                      <div className="flip-box-front">
+                        <div className="d-flex justify-content-center row">
+                          <h2 className="pt-3 fontv text-light">{product.Name}</h2>
+                          <img className="w-100 pt-5" src={product.Img} alt={product.Name} />
+                        </div>
+                      </div>
+                      <div className="flip-box-backk" dir="rtl">
+                        <h5 className="fontv text-light h5">{product.Description}</h5>
+                        <div class="pt-3 fontv"><a href="/pi"class="link"><button class="btn btn-outline-light btn-md col-md-12 ">اطلاعات بیشتر</button></a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
 </>
   );
 }

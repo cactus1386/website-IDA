@@ -1,0 +1,16 @@
+.slide-in {
+    transform: translateX(-150%);
+    transition: transform 1s ease;
+  }
+  
+  .visible {
+    transform: translateX(0);
+  }
+  
+.slide-intori{
+  transform: translateX(150%);
+  transition: transform 1s ease;
+}
+  .visible {
+    transform: translateX(0);
+  } 
