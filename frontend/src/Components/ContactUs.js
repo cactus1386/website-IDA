@@ -1,11 +1,12 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 function ContactUs() {
-  return (<>    
+  return (<> <div class="pt-3">  
             <div class="col-md-12 bg-primary fontv" style={{ height: '100px' }}>
                 <div class="d-flex justify-content-center pt-4">
                     <h2 class="text-light fontv">تماس با ما</h2>
                 </div>
+            </div>
             </div>
             <div class="row pt-5 fontv " style={{ paddingRight: '200px' ,paddingLeft :'200px'}}>
                 <div class="row card p-3 shadow">

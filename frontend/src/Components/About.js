@@ -14,14 +14,14 @@ const AboutUs = () => {
     return (
         <div className="container mt-5" dir="rtl">
             <div className="row">
-                <div className="col text-center">
+                <div className="col text-center border-bottom">
                     <h1 className="mb-4 fontv">درباره ما</h1>
                     <p className="lead fontv">
                         شرکت دانش بنیان هوش داده هدف از سال 1394 با تجربه 10 ساله در حوزه های فناوری اطلاعات، هوشمندسازی و مانیتورینگ آنلاین فرآیندها شروع به فعالیت نموده است. این شرکت در سال 1396 موفق به استقرار در پارک علم و فناوری دانشگاه تحصیلات تکمیلی علوم پایه زنجان گردید و در پاییز 1396 رتبه دانش بنیانی این شرکت توسط معاونت علمی و فناوری ریاست جمهوری مورد تایید قرار گرفت.
                     </p>
                 </div>
             </div>
-            <div className="row mt-5 align-items-center section">
+            <div className="row mt-5 align-items-center section border-bottom pb-3">
                 <div className="col-md-6">
                     <img src={applic} alt="Focus" className="img-fluid" />
                 </div>
@@ -32,18 +32,18 @@ const AboutUs = () => {
                     </p>
                 </div>
             </div>
-            <div className="row mt-5 align-items-center section">
+            <div className="row  align-items-center section border-bottom pb-3">
                 <div className="col-md-6 order-md-2">
                     <img src={internet} alt="Achievements" className="img-fluid" />
                 </div>
-                <div className="col-md-6 text-md-right">
+                <div className="col-md-6 text-md-right ">
                     <h2 className="fontv">دستاوردهای شرکت</h2>
                     <p className="fontv">
                         شایان ذکر است که این شرکت دانش بنیان تنها شرکت دارنده نرم‌افزار اسکادا و تجهیزات مرتبط با بستر ارتباطی دارای گواهی‌نامه امنیتی از مرکز تخصصی آپا در ایران می‌باشد. با توجه به اینکه بسیاری از کاربردهای اینترنت اشیاء نیازمند آن‌اند که دستگاه‌ها بتوانند با حداقل توان فعالیت کرده و طول عمر باتری بالایی داشته باشند، همچنین برای آنکه بتوان تعداد بیشتری از دستگاه‌ها (اشیاء) را تحت پوشش قرار داد، نیاز است از بستری استفاده شود که قابلیت دریافت اطلاعات از نقاط در فواصل طولانی را نیز داشته باشد. به همین منظور مفهوم جدیدی از زیرساخت ارتباطی با عنوان LPWAN مورد استفاده قرار می‌گیرد تا نیازمندی‌های ذکر شده را مرتفع کرده و بتواند در کاربردهای بسیاری مورد استفاده قرار گیرد.
                     </p>
                 </div>
             </div>
-            <div className="row mt-5 align-items-center section">
+            <div className="row mt-5 align-items-center section border-bottom pb-3">
                 <div className="col-md-6">
                     <img src={plc} alt="LPWAN" className="img-fluid" />
                 </div>
@@ -54,7 +54,7 @@ const AboutUs = () => {
                     </p>
                 </div>
             </div>
-            <div className="row mt-5 align-items-center section">
+            <div className="row mt-5 align-items-center section border-bottom pb-5">
                 <div className="col-md-6 order-md-2">
                     <img src={img2} alt="Monitoring and Control" className="img-fluid" />
                 </div>
@@ -65,7 +65,7 @@ const AboutUs = () => {
                     </p>
                 </div>
             </div>
-            <div className="row mt-5 align-items-center section">
+            <div className="row mt-5 align-items-center section border-bottom pb-5">
                 <div className="col-md-6">
                     <img src={img3} alt="SCADA Systems" className="img-fluid" />
                 </div>
