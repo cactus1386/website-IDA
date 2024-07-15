@@ -1,29 +1,14 @@
 import { Carousel } from 'react-bootstrap';
-import React, { useEffect, useState } from 'react';
+import React, {useState} from 'react';
 import 'bootstrap/dist/css/bootstrap.css'
 import img1 from '../../Assets/S1.jpg'
 import img2 from '../../Assets/S2.jpg'
 import "../../CSS/Slider.css";
 import "../../font/font.css";
-import '../../CSS/Animation.css';
 
 
 
 function Slider() {
-    const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
-  const handleScroll = () => {
-    if (window.scrollY > 0) { // Change this value to the position where you want the animation to trigger
-      setIsVisible(true);
-    }
-  };
     const [isFlipped, setIsFlipped] = useState(false);
 
     const handleFlip = () => {
@@ -31,7 +16,6 @@ function Slider() {
     };
 
     return (
-            <div className={`slide-in ${isVisible ? 'visible' : ''}`}>
                 <div class='pt-3'>
                     <div class="col-md-12">
                         <div className="col-md-12" style={{ height: '50px' }}>
@@ -63,8 +47,6 @@ function Slider() {
                         </div>
                     </div>
                 </div>
-            </div>
-
     );
 }
 

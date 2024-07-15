@@ -9,6 +9,7 @@ import Footer from './Components/Footer';
 import ContactUs from './Components/ContactUs';
 import AboutUs from './Components/About';
 import Pi from './Components/ProductInfo';
+import Error from './Components/404';
 
 const App = () => {
 
@@ -18,6 +19,7 @@ const App = () => {
       <Router>
           <Routes>
             <Route path='/' element={<Home />} />
+            <Route path='*' element={<Error />} />
             <Route path='/flip' element={<FlipBox />} />
             <Route path='/products' element={<Product />} />
             <Route path='/contact' element={<ContactUs />} />

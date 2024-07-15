@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import applic from "../../Assets/applic2.png"
 import scada from "../../Assets/scada.png"
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -8,22 +8,8 @@ import '../../CSS/Animation.css';
 
 
 function Application() {
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
-  const handleScroll = () => {
-    if (window.scrollY > 700) { // Change this value to the position where you want the animation to trigger
-      setIsVisible(true);
-    }
-  };
   return (<> 
-     <div className={`slide-in ${isVisible ? 'visible' : ''}`}>
+
         <div class="col-md-12 bg-blue fontv " dir="rtl" style={{height:"500px"}} >
             <div class="col-md-12 d-flex justify-content-center">
               <div class="col-md-5 card" style={{marginTop:'25px'}}>
@@ -60,8 +46,7 @@ function Application() {
               <div class="col-md-2"></div>
             </div>
         </div>
-      </div>
-  </>
+          </>
   );
 }
 

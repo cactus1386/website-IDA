@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import applic from '../../Assets/applic.png';
 import internet from '../../Assets/internet.png';
 import plc from '../../Assets/plc.png';
-import React, { useEffect, useState } from 'react';
+import React, {useState} from 'react';
 import "../../CSS/Cardflip.css";
 import "../../CSS/General.css";
 import "../../font/font.css";
@@ -10,20 +10,6 @@ import '../../CSS/Animation.css';
 
 
 function Product() {
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
-  const handleScroll = () => {
-    if (window.scrollY > 300) { // Change this value to the position where you want the animation to trigger
-      setIsVisible(true);
-    }
-  };
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleFlip = () => {
@@ -37,7 +23,6 @@ function Product() {
   ]);
 
   return (<>
-        <div className={`slide-intori ${isVisible ? 'visible' : ''}`}>
           <div className="pt-3 row mb-3">
             <div className="" style={{ height: '50px', width:'100%'}}>
               <div
@@ -80,7 +65,6 @@ function Product() {
               </div>
             ))}
           </div>
-        </div>
 </>
   );
 }
