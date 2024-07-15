@@ -24,7 +24,7 @@ function Slider() {
                     >
                         <div className="flip-box-inner">
                             <div className="flip-box-front">
-                                <h5 class="pb-2 fontv h5">شرکت هوش داده هدف</h5>
+                                <h5 class="pb-2 fontv h5 pt-2">شرکت هوش داده هدف</h5>
                             </div>
                             <div className="flip-box-back" dir="rtl">
                                 <h5 class=" fontv h5 ">پیشرو در زمینه اتوماسیون صنعتی و اینترنت اشیا</h5>
