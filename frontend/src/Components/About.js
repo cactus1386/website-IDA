@@ -11,17 +11,23 @@ import plc from '../Assets/plc.png';
 
 
 const AboutUs = () => {
-    return (
-        <div className="container mt-5" dir="rtl">
+    return (<>
+        <div class="pt-3">
+            <div class="col-md-12 bg-primary fontv " style={{ height: '100px' }}>
+                <div class="d-flex justify-content-center pt-4">
+                    <h2 class="text-light fontv">دربـــاره مـــا</h2>
+                </div>
+            </div>  
+        </div>
+        <div className="container " dir="rtl">
             <div className="row">
-                <div className="col text-center border-bottom">
-                    <h1 className="mb-4 fontv">درباره ما</h1>
-                    <p className="lead fontv">
+                <div className="col text-center border-bottom">                  
+            <p className="lead fontv pt-2">
                         شرکت دانش بنیان هوش داده هدف از سال 1394 با تجربه 10 ساله در حوزه های فناوری اطلاعات، هوشمندسازی و مانیتورینگ آنلاین فرآیندها شروع به فعالیت نموده است. این شرکت در سال 1396 موفق به استقرار در پارک علم و فناوری دانشگاه تحصیلات تکمیلی علوم پایه زنجان گردید و در پاییز 1396 رتبه دانش بنیانی این شرکت توسط معاونت علمی و فناوری ریاست جمهوری مورد تایید قرار گرفت.
                     </p>
                 </div>
             </div>
-            <div className="row mt-5 align-items-center section border-bottom pb-3">
+            <div className="row mt-5 align-items-center section border-bottom pb-   ">
                 <div className="col-md-6">
                     <img src={applic} alt="Focus" className="img-fluid" />
                 </div>
@@ -83,7 +89,7 @@ const AboutUs = () => {
                 </div>
             </div>
         </div>
-    );
+    </>);
 };
 
 export default AboutUs;

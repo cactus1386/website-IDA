@@ -4,7 +4,7 @@ function ContactUs() {
   return (<> <div class="pt-3">  
             <div class="col-md-12 bg-primary fontv" style={{ height: '100px' }}>
                 <div class="d-flex justify-content-center pt-4">
-                    <h2 class="text-light fontv">تماس با ما</h2>
+                    <h2 class="text-light fontv">تمـــاس بـــا مـــا</h2>
                 </div>
             </div>
             </div>
