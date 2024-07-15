@@ -55,7 +55,7 @@ function Product() {
                   </div>
                   <div className="flip-box-backk" dir="rtl">
                     <h5 className="fontv text-light h5">{product.Description}</h5>
-                    <div class="pt-3"><a href="/pi"class="link"><button class="btn btn-outline-light btn-md col-md-12">اطلاعات بیشتر</button></a></div>
+                    <div class="pt-3 fontv"><a href="/pi"class="link"><button class="btn btn-outline-light btn-md col-md-12 ">اطلاعات بیشتر</button></a></div>
                   </div>
                 </div>
               </div>
