@@ -1,4 +1,4 @@
-.Img{
+.Imagw{
     width: 400px;
     height: auto;
 }
@@ -14,4 +14,7 @@
   }
 .positionn{
     position: absolute;
+}
+.bg-blue{
+    background-color: #1d87ff;
 }
