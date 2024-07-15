@@ -40,8 +40,8 @@ function Application() {
                 <button class="btn btn-md btn-outline-dark col-md-12">اطلاعات بیشتر</button>
                 </div>
           </div>
-  
-        </div>1
+          <div class="col-md-2"></div>
+        </div>
 
     </div>
   </>
