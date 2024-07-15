@@ -5,9 +5,9 @@ import Product from './Home/Product';
 
 const Home = () => {
     return (
-        <div className="container-xxl">
+        <div className="container-fluid">
             <Slider />
-            <Product/>
+            <Product />
 
         </div>
     );
