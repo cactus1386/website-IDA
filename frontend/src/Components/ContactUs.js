@@ -1,8 +1,10 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../CSS/General.css';
+
 function ContactUs() {
   return (<> <div class="pt-3">  
-            <div class="col-md-12 bg-primary fontv" style={{ height: '100px' }}>
+            <div class="col-md-12 bg-blue fontv" style={{ height: '100px' }}>
                 <div class="d-flex justify-content-center pt-4">
                     <h2 class="text-light fontv">تمـــاس بـــا مـــا</h2>
                 </div>
