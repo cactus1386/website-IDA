@@ -1,16 +1,48 @@
 .slide-in {
-    transform: translateX(-150%);
-    transition: transform 1s ease;
-  }
-  
-  .visible {
-    transform: translateX(0);
-  }
-  
-.slide-intori{
+  transform: translateX(-150%);
+  transition: transform 1s ease;
+}
+
+.visible {
+  transform: translateX(0);
+}
+
+.slide-intori {
   transform: translateX(150%);
   transition: transform 1s ease;
 }
-  .visible {
-    transform: translateX(0);
-  } 
+
+.visible {
+  transform: translateX(0);
+}
+
+.Imagw {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.bg-blue {
+  background-color: #1d87ff;
+  border-radius: 15px;
+}
+
+.text-light {
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .pt-5 {
+    padding-top: 2rem;
+  }
+
+  .text-light {
+    text-align: center;
+  }
+
+  .text-center img {
+    margin-right: 0 !important;
+    margin-bottom: 15px;
+  }
+}
