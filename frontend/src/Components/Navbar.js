@@ -2,11 +2,11 @@ import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../CSS/Navbar.css';
-import img from '../Assets/IDA.png'
+import img from '../Assets/IDA.png';
 
 const CustomNavbar = () => {
-    return (<>
-        <Navbar className="custom-navbar navbar-expand-md shadow  " style={{ height: '80px'}}>
+    return (
+        <Navbar className="custom-navbar navbar-expand-md shadow" expand="md" style={{ height: '80px' }}>
             <Navbar.Brand href="/">
                 <img
                     src={img}
@@ -25,7 +25,7 @@ const CustomNavbar = () => {
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
-    </>);
+    );
 };
 
 export default CustomNavbar;
