@@ -43,7 +43,7 @@ function Product() {
           <div className="row">
             {Products.slice(0,3).map((product, index) => (
               <div key={index} className="col-md-4 pt-3">
-                <div className="col" style={{ height: '450px' }}>
+                <div className="col" style={{ height: '500px' }}>
                   <div
                     className={`flip-box ${isFlipped ? 'flipped' : ''}`}
                     onClick={handleFlip}

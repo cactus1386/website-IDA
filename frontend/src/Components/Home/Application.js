@@ -37,7 +37,7 @@ function Application() {
             {`\u2022`}ﺳﺎﻣﺎﻧﻪ ﻫﺎی ﮐﻨﺘﺮل دﺳﺘﺮﺳﯽ
           </div>
           <div className="pt-3" style={{ marginRight: "40px" }}>
-            <button className="btn btn-md btn-outline-light col-md-12">اطلاعات بیشتر</button>
+            <a href="/pi" class="link"><button className="btn btn-md btn-outline-light col-md-12">اطلاعات بیشتر</button></a>
           </div>
         </div>
       </div>
