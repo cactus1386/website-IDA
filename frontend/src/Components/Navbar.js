@@ -7,7 +7,7 @@ import img from '../Assets/IDA.png';
 const CustomNavbar = () => {
     return (
         <Navbar className="custom-navbar navbar-expand-md shadow" expand="md" style={{ height: '80px' }}>
-            <Navbar.Brand href="/">
+            <Navbar.Brand href="/ida-ltd">
                 <img
                     src={img}
                     height="60"
@@ -17,11 +17,11 @@ const CustomNavbar = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
                 <Nav className="nav-links fontv">
-                    <Nav.Link href="/">خانه</Nav.Link>
-                    <Nav.Link href="/products">محصولات</Nav.Link>
-                    <Nav.Link href="/services">سرویس ها</Nav.Link>
-                    <Nav.Link href="/about">درباره ما</Nav.Link>
-                    <Nav.Link href="/contact">تماس با ما</Nav.Link>
+                    <Nav.Link href="/ida-ltd">خانه</Nav.Link>
+                    <Nav.Link href="/ida-ltd/products">محصولات</Nav.Link>
+                    <Nav.Link href="/ida-ltd/services">سرویس ها</Nav.Link>
+                    <Nav.Link href="/ida-ltd/about">درباره ما</Nav.Link>
+                    <Nav.Link href="/ida-ltd/contact">تماس با ما</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
