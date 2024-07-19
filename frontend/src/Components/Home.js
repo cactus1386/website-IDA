@@ -6,23 +6,8 @@ import '../CSS/Animation.css';
 
 
 const Home = () => {
-  const [isVisible1, setIsVisible1] = useState(false);
   const [isVisible2, setIsVisible2] = useState(false);
   const [isVisible3, setIsVisible3] = useState(false);
-
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll1);
-    return () => {
-      window.removeEventListener('scroll', handleScroll1);
-    };
-  }, []);
-
-  const handleScroll1 = () => {
-    if (window.scrollY > 0) { // Change this value to the position where you want the animation to trigger
-      setIsVisible1(true);
-    }
-  };
-
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll2);

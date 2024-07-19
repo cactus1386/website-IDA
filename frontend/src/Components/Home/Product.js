@@ -24,7 +24,7 @@ function Product() {
 
   return (<>
           <div className="pt-3 row mb-3">
-            <div className="" style={{ height: '50px', width:'100%'}}>
+            <div className="col-md-12" style={{ height: '50px'}}>
               <div
                 className={`flip-boxt ${isFlipped ? 'flipped' : ''}`}
                 onClick={handleFlip}
@@ -40,10 +40,10 @@ function Product() {
               </div>
             </div>
           </div>
-          <div className="row">
+          <div className="row col-md-12" style={{paddingRight:"30px"}}>
             {Products.slice(0,3).map((product, index) => (
-              <div key={index} className="col-md-4 pt-3">
-                <div className="col" style={{ height: '600px' }}>
+              <div key={index} className="col-md-4 pt-3" >
+                <div className="" style={{ height: '600px' }}>
                   <div
                     className={`flip-box ${isFlipped ? 'flipped' : ''}`}
                     onClick={handleFlip}

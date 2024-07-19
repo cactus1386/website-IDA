@@ -6,7 +6,7 @@ import img from '../Assets/IDA.png';
 
 const CustomNavbar = () => {
     return (
-        <Navbar className="custom-navbar navbar-expand-md shadow" expand="md" style={{ height: '80px' }}>
+        <Navbar className="custom-navbar navbar-expand-md shadow navdis" expand="md" style={{ height: '80px' }}>
             <Navbar.Brand href="/ida-ltd">
                 <img
                     src={img}
@@ -14,8 +14,8 @@ const CustomNavbar = () => {
                     alt="Logo"
                 />
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
+            <Navbar.Toggle aria-controls="basicNav" />
+            <Navbar.Collapse id="basicNav" className="justify-content-center custom-navbar  rounded">
                 <Nav className="nav-links fontv">
                     <Nav.Link href="/ida-ltd">خانه</Nav.Link>
                     <Nav.Link href="/ida-ltd/products">محصولات</Nav.Link>
