@@ -36,7 +36,7 @@ function Application() {
           <div className="pt-2">
             {`\u2022`}ﺳﺎﻣﺎﻧﻪ ﻫﺎی ﮐﻨﺘﺮل دﺳﺘﺮﺳﯽ
           </div>
-          <div className="pt-3" style={{ marginRight: "40px" }}>
+          <div className="pt-3">
             <a href="/ida-ltd/pi" class="link"><button className="btn btn-md btn-outline-light col-md-12">اطلاعات بیشتر</button></a>
           </div>
         </div>

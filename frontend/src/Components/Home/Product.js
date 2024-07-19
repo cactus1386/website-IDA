@@ -40,7 +40,7 @@ function Product() {
               </div>
             </div>
           </div>
-          <div className="row col-md-12" style={{paddingRight:"30px"}}>
+          <div className="row col-md-12" >
             {Products.slice(0,3).map((product, index) => (
               <div key={index} className="col-md-4 pt-3" >
                 <div className="" style={{ height: '600px' }}>

@@ -10,6 +10,20 @@ import '../CSS/Animation.css';
 const Home = () => {
   const [isVisible2, setIsVisible2] = useState(false);
   const [isVisible3, setIsVisible3] = useState(false);
+  const [isVisible1, setIsVisible1] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll1);
+    return () => {
+      window.removeEventListener('scroll', handleScroll1);
+    };
+  }, []);
+
+  const handleScroll1 = () => {
+    if (window.scrollY > 1500) { // Change this value to the position where you want the animation to trigger
+      setIsVisible1(true);
+    }
+  };
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll2);
@@ -34,7 +48,7 @@ const Home = () => {
   }, []);
 
   const handleScroll3 = () => {
-    if (window.scrollY > 700) { // Change this value to the position where you want the animation to trigger
+    if (window.scrollY > 900) { // Change this value to the position where you want the animation to trigger
       setIsVisible3(true);
     }
   };
@@ -49,7 +63,7 @@ const Home = () => {
       <div className={`slide-in ${isVisible3 ? 'visible' : ''}`}>
         <div class="pt-3"><Application /></div>
       </div>
-      <div className={`slide-intori ${isVisible2 ? 'visible' : ''}`}>
+      <div className={`slide-intori ${isVisible1 ? 'visible' : ''}`}>
         <Internet />
       </div>
 
