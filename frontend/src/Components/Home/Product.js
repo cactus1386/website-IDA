@@ -43,7 +43,7 @@ function Product() {
           <div className="row">
             {Products.slice(0,3).map((product, index) => (
               <div key={index} className="col-md-4 pt-3">
-                <div className="col" style={{ height: '500px' }}>
+                <div className="col" style={{ height: '600px' }}>
                   <div
                     className={`flip-box ${isFlipped ? 'flipped' : ''}`}
                     onClick={handleFlip}
@@ -51,12 +51,12 @@ function Product() {
                     <div className="flip-box-inner">
                       <div className="flip-box-front">
                         <div className="d-flex justify-content-center row">
-                          <h2 className="pt-3 fontv text-light">{product.Name}</h2>
+                          <h2 className="pt-5 fontv text-light">{product.Name}</h2>
                           <img className="w-100 pt-5" src={product.Img} alt={product.Name} />
                         </div>
                       </div>
                       <div className="flip-box-backk" dir="rtl">
-                        <h5 className="fontv text-light h5">{product.Description}</h5>
+                        <h5 className="fontv text-light h5 pt-3">{product.Description}</h5>
                         <div class="pt-3 fontv"><a href="/ida-ltd/pi"class="link"><button class="btn btn-outline-light btn-md col-md-12 ">اطلاعات بیشتر</button></a></div>
                       </div>
                     </div>
