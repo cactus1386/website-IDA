@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import Slider from './Home/Slider';
 import Product from './Home/Product';
 import Application from './Home/Application';
+import Internet from './Home/Internet';
+
 import '../CSS/Animation.css';
 
 
@@ -46,6 +48,9 @@ const Home = () => {
       </div>
       <div className={`slide-in ${isVisible3 ? 'visible' : ''}`}>
         <div class="pt-3"><Application /></div>
+      </div>
+      <div className={`slide-intori ${isVisible2 ? 'visible' : ''}`}>
+        <Internet />
       </div>
 
     </div>

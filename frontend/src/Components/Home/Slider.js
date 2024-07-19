@@ -1,14 +1,18 @@
 import { Carousel } from 'react-bootstrap';
 import React, {useState} from 'react';
 import 'bootstrap/dist/css/bootstrap.css'
-import img1 from '../../Assets/S1.jpg'
-import img2 from '../../Assets/S2.jpg'
+import img1 from '../../Assets/7.jpg'
+import img2 from '../../Assets/6.jpg'
 import "../../CSS/Slider.css";
 import "../../font/font.css";
 
 
 
 function Slider() {
+    const [Images,setImages] = useState([
+        {Img:img1},
+        {Img:img2},
+    ])
     const [isFlipped, setIsFlipped] = useState(false);
 
     const handleFlip = () => {
@@ -36,12 +40,11 @@ function Slider() {
                         <div class="d-flex justify-content-center pt-3">
                             <div class="col-md-12">
                                 <Carousel>
+                                    {Images.map(c=> (
                                     <Carousel.Item>
-                                        <img className="d-block w-100 img" src={img1} />
+                                        <img className="d-block w-100 img" src={c.Img} />
                                     </Carousel.Item>
-                                    <Carousel.Item>
-                                        <img className="d-block w-100 img" src={img2} />
-                                    </Carousel.Item>
+                                    ))}
                                 </Carousel>
                             </div>
                         </div>

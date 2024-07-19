@@ -10,6 +10,7 @@ import ContactUs from './Components/ContactUs';
 import AboutUs from './Components/About';
 import Pi from './Components/ProductInfo';
 import Error from './Components/404';
+import Test from './Components/Home/Internet';
 
 const App = () => {
 
@@ -25,6 +26,7 @@ const App = () => {
             <Route path='/ida-ltd/contact' element={<ContactUs />} />
             <Route path='/ida-ltd/about' element={<AboutUs />} />
             <Route path='/ida-ltd/pi' element={<Pi />} />
+            <Route path='/ida-ltd/test' element={<Test />} />
           </Routes>
       </Router>
       <Footer />
