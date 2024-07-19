@@ -1,0 +1,20 @@
+.pic{
+    height:"600px" ;
+    width:"auto"
+}
+.bgs{
+    height:"570px";
+    width:"100%";
+}
+@media (max-width: 768px) {
+    .bgs{
+        width: "600px";
+    }
+    .pic{
+        height:"300px" ;
+        width:"auto"
+    }
+
+
+
+}
