@@ -1,11 +1,12 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../CSS/General.css';
+import img1 from "../Assets/response.png";
 import "https://kit.fontawesome.com/6c2a0de8a3.js";
 function Footer() {
   return (<div class="pt-5">
     <footer className=" text-primary py-4 fontv border-top">
-      <div className="container-xxl shadow rounded p-3">
+      <div className="container-xxxl  rounded p-5">
         <div className="row">
           <div className="col-md-4">
             <h5>درباره ما</h5>
@@ -48,6 +49,7 @@ function Footer() {
         </div>
         <hr />
         <div className="">
+          <img src ={img1} style={{width:"100%"}}/>
         </div>
       </div>
     </footer>
