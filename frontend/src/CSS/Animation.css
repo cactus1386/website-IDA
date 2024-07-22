@@ -45,4 +45,14 @@
     margin-right: 0 !important;
     margin-bottom: 15px;
   }
+  .slide-in {
+    transform: translateX(0);
+
+  }
+
+  .slide-intori {
+    transform: translateX(0);
+
+  }
+  
 }
