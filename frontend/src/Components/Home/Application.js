@@ -8,7 +8,7 @@ import '../../CSS/Animation.css';
 
 function Application() {
   return (<>
-    <div className="container mt-5 bg-blue fontv text-light" dir="rtl" style={{ padding: '25px', borderRadius: '15px' }}>
+    <div className="container  mt-5 bg-blue fontv text-light" dir="rtl" style={{ padding: '25px', borderRadius: '15px' }}>
       <div className="row">
         <div className="col-md-6 d-flex justify-content-center align-items-center">
           <div className="text-center">

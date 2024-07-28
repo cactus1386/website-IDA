@@ -96,3 +96,13 @@
   color: #1d87ff;
   transform: rotatex(180deg);
 }
+.fh{
+  height: 450px;
+}
+@media (max-width: 1000px) {
+  .fh{
+    height: 600px;
+  }
+
+}
+  

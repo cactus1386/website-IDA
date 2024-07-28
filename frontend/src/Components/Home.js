@@ -61,7 +61,7 @@ const Home = () => {
         <Product />
       </div>
       <div className={`slide-in ${isVisible3 ? 'visible' : ''}`}>
-        <div class="pt-3"><Application /></div>
+        <div class="pt-3 "><Application /></div>
       </div>
       <div className={`slide-intori ${isVisible1 ? 'visible' : ''}`}>
         <Internet />
