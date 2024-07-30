@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import FlipBox from './Components/Home/Card'
 import CustomNavbar from './Components/Navbar';
 import Home from './Components/Home';
-import Product from './Components/Home/Product';
+import Product from './Components/NavProducts';
 import Footer from './Components/Footer';
 import ContactUs from './Components/ContactUs';
 import AboutUs from './Components/About';

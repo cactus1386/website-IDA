@@ -34,23 +34,7 @@ function Product() {
     .then((result) => setProducts(result))
     .catch((error) => console.error(error));
   return (<div class="fontv">
-          <div className="pt-3 row mb-3">
-            <div className="col-md-12" style={{ height: '50px'}}>
-              <div
-                className={`flip-boxt ${isFlipped ? 'flipped' : ''}`}
-                onClick={handleFlip}
-              >
-                <div className="flip-box-innert">
-                  <div className="flip-box-frontt">
-                    <h5 className="pb-2 fontv h5">محصولات</h5>
-                  </div>
-                  <div className="flip-box-backt" dir="rtl">
-                    <h5 className="fontv h5">شرکت هوش داده هدف</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+
           <div className="row col-md-12" >
             {Products.slice(0,3).map((product, index) => (
               <div key={index} className="col-md-4" >

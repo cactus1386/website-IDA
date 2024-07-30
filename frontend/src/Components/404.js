@@ -6,7 +6,7 @@ import "../CSS/404.css";
 const fourOfour = () => {
     return (
         <div className="d-flex justify-content-center">
-            <div className="col-md-10 pt-2">
+            <div className="col-md-12 pt-2">
                 <div className="bg-blue rounded bgs" >
                     <div className="d-flex justify-content-center">
                         <img src={pic} class="pic"/>

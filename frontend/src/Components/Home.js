@@ -8,6 +8,12 @@ import '../CSS/Animation.css';
 
 
 const Home = () => {
+  const [isFlipped, setIsFlipped] = useState(false);
+
+  const handleFlip = () => {
+    setIsFlipped(!isFlipped);
+  };
+
   const [isVisible2, setIsVisible2] = useState(false);
   const [isVisible3, setIsVisible3] = useState(false);
   const [isVisible1, setIsVisible1] = useState(false);
@@ -58,6 +64,23 @@ const Home = () => {
         <Slider />
       </div>
       <div className={`slide-intori ${isVisible2 ? 'visible' : ''}`}>
+      <div className="pt-3 row mb-3">
+            <div className="col-md-12" style={{ height: '50px'}}>
+              <div
+                className={`flip-boxt ${isFlipped ? 'flipped' : ''}`}
+                onClick={handleFlip}
+              >
+                <div className="flip-box-innert">
+                  <div className="flip-box-frontt">
+                    <h5 className="pb-2 fontv h5">محصولات</h5>
+                  </div>
+                  <div className="flip-box-backt" dir="rtl">
+                    <h5 className="fontv h5">شرکت هوش داده هدف</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         <Product />
       </div>
       <div className={`slide-in ${isVisible3 ? 'visible' : ''}`}>

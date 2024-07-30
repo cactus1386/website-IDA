@@ -13,13 +13,13 @@ import plc from '../Assets/plc.png';
 
 const AboutUs = () => {
     return (<>
-        <div class="pt-3">
-            <div class="col-md-12 bg-blue fontv " style={{ height: '100px' }}>
-                <div class="d-flex justify-content-center pt-4">
-                    <h2 class="text-light fontv">دربـــاره مـــا</h2>
-                </div>
-            </div>  
+        <div className="row">
+        <div className="col-12 bg-blue fontv" style={{ height: '100px' }}>
+          <div className="d-flex justify-content-center pt-4">
+          <h2 class="text-light fontv">دربـــاره مـــا</h2>
+          </div>
         </div>
+      </div>
         <div className="container-xxl " dir="rtl">
             <div className="row">
                 <div className="col text-center border-bottom border-dark">                  
