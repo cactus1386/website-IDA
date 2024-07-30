@@ -59,7 +59,7 @@ const Home = () => {
 
     return (
         <div class="fontv">
-            <div class="pt-3 p-3 ">{parser(detail.body)}</div>
+            <div class="pt-3 p-3 fontv">{parser(detail.body)}</div>
             <div class="d-flex justify-content-center pt-3">
                         <div class="col-md-6">
                             <Carousel>
