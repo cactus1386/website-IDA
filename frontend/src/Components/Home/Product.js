@@ -47,7 +47,7 @@ function Product() {
                       <div className="flip-box-front">
                         <div className="d-flex justify-content-center row">
                           <h2 className="pt-4 fontv text-light">{product.title}</h2>
-                          <img className="w-100 pt-5" src={applic} alt={product.title} />
+                          <img className="w-100 pt-5" src={product.pic} alt={product.title} />
                         </div>
                       </div>  
                       <div className="flip-box-backk" dir="rtl">

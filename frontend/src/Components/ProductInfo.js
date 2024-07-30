@@ -60,9 +60,8 @@ const Home = () => {
     return (
         <div class="fontv">
             <div class="pt-3 p-3 ">{parser(detail.body)}</div>
-            {/* Example of using images */}
             <div class="d-flex justify-content-center pt-3">
-                        <div class="col-md-7">
+                        <div class="col-md-6">
                             <Carousel>
                             {detail.images.map((w, index) => (
                                 <Carousel.Item>
