@@ -52,7 +52,7 @@ function Product() {
                       </div>  
                       <div className="flip-box-backk" dir="rtl">
                         <h5 className="fontv text-light h5 pt-3">{product.description}</h5>
-                        <div class="pt-3 fontv"><a href={'/ida-ltd-3.0/pi?id=' + product.id} class="link"><button class="btn btn-outline-light btn-md col-md-12 ">اطلاعات بیشتر</button></a></div>
+                        <div class="pt-3 fontv"><a href={'/pi?id=' + product.id} class="link"><button class="btn btn-outline-light btn-md col-md-12 ">اطلاعات بیشتر</button></a></div>
                       </div>
                     </div>
                   </div>

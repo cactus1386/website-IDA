@@ -60,19 +60,18 @@ const Home = () => {
     return (
         <div class="fontv">
             <div class="pt-3 p-3 fontv">{parser(detail.body)}</div>
-            <div class="d-flex justify-content-center pt-3">
-                        <div class="col-md-6">
-                            <Carousel>
-                            {detail.images.map((w, index) => (
-                                <Carousel.Item>
-                                    <img className="d-block w-100 Img" src={w.image} />
-                                </Carousel.Item>
-                                ))}                                
-
-                            </Carousel>
-                        </div>
+                <div class="d-flex justify-content-center pt-3">
+                    <div class="col-md-6">
+                        <Carousel>
+                        {detail.images.map((w, index) => (
+                            <Carousel.Item>
+                                <img className="d-block w-100 Img" src={w.image} />
+                            </Carousel.Item>
+                            ))}                                
+                        </Carousel>
                     </div>
-        </div>
+                </div>
+            </div>
     ); 
 }; 
 

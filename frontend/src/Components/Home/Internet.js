@@ -20,7 +20,7 @@ function Application() {
             </span>
         </div>
           <div className="pt-3 pb-3" >
-            <a href='/ida-ltd-3.0/products' class="link"><button className="btn btn-md btn-outline-light col-md-12">اطلاعات بیشتر</button></a>
+            <a href='/products' class="link"><button className="btn btn-md btn-outline-light col-md-12">اطلاعات بیشتر</button></a>
           </div>
         </div>
         <div className="col-md-6 d-flex justify-content-center align-items-center">

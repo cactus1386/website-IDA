@@ -17,11 +17,11 @@ const CustomNavbar = () => {
             <Navbar.Toggle aria-controls="basicNav" />
             <Navbar.Collapse id="basicNav" className="justify-content-center custom-navbar  rounded">
                 <Nav className="nav-links fontv">
-                    <Nav.Link href="/ida-ltd-3.0">خانه</Nav.Link>
-                    <Nav.Link href="/ida-ltd-3.0/products">محصولات</Nav.Link>
-                    <Nav.Link href="/ida-ltd-3.0/services">سرویس ها</Nav.Link>
-                    <Nav.Link href="/ida-ltd-3.0/about">درباره ما</Nav.Link>
-                    <Nav.Link href="/ida-ltd-3.0/contact">تماس با ما</Nav.Link>
+                    <Nav.Link href="/">خانه</Nav.Link>
+                    <Nav.Link href="/products">محصولات</Nav.Link>
+                    <Nav.Link href="/services">سرویس ها</Nav.Link>
+                    <Nav.Link href="/about">درباره ما</Nav.Link>
+                    <Nav.Link href="/contact">تماس با ما</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

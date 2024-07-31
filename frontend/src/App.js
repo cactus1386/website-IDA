@@ -18,13 +18,13 @@ const App = () => {
       <CustomNavbar />
       <Router>
           <Routes>
-            <Route path='/ida-ltd-3.0' element={<Home />} />
+            <Route path='/' element={<Home />} />
             <Route path='*' element={<Error />} />
-            <Route path='/ida-ltd-3.0/flip' element={<FlipBox />} />
-            <Route path='/ida-ltd-3.0/products' element={<Product />} />
-            <Route path='/ida-ltd-3.0/contact' element={<ContactUs />} />
-            <Route path='/ida-ltd-3.0/about' element={<AboutUs />} />
-            <Route path='/ida-ltd-3.0/pi' element={<Pi />} />
+            <Route path='/flip' element={<FlipBox />} />
+            <Route path='/products' element={<Product />} />
+            <Route path='/contact' element={<ContactUs />} />
+            <Route path='/about' element={<AboutUs />} />
+            <Route path='/pi' element={<Pi />} />
           </Routes>
       </Router>
       <Footer />
