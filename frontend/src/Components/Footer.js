@@ -2,7 +2,6 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../CSS/General.css';
 import img1 from "../Assets/response.png";
-import "https://kit.fontawesome.com/6c2a0de8a3.js";
 function Footer() {
   return (<div class="pt-5">
     <footer className=" text-primary py-4 fontv border-top">
@@ -49,7 +48,7 @@ function Footer() {
         </div>
         <hr />
         <div className="">
-          <img src ={img1} style={{width:"100%"}}/>
+          <img src={img1} style={{ width: "100%" }} />
         </div>
       </div>
     </footer>
