@@ -32,7 +32,7 @@
   border-radius: 10px;
   background-color: #1d87ff;
   padding-top: 7px;
-  box-shadow:1px 1px 1px #b5b5b5;
+  box-shadow: 1px 1px 1px #b5b5b5;
   color: #ffffff;
 
 }
@@ -42,10 +42,11 @@
   border-radius: 10px;
   background-color: #ffffff;
   padding-top: 9px;
-  box-shadow:1px 1px 1px #c2c2c2;
+  box-shadow: 1px 1px 1px #c2c2c2;
   color: #1d87ff;
   transform: rotatex(180deg);
 }
+
 .flip-boxx {
   background-color: transparent;
   width: 100%;
@@ -80,7 +81,7 @@
   border-radius: 10px;
   background-color: #ffffff;
   padding-top: 7px;
-  box-shadow:1px 1px 1px #b5b5b5;
+  box-shadow: 1px 1px 1px #b5b5b5;
   color: #1d87ff;
 
 }
@@ -92,17 +93,18 @@
   padding-top: 50px;
   padding-left: 80px;
   padding-right: 80px;
-  box-shadow:1px 1px 1px #c2c2c2;
+  box-shadow: 1px 1px 1px #c2c2c2;
   color: #1d87ff;
   transform: rotatex(180deg);
 }
-.fh{
+
+.fh {
   height: 450px;
 }
+
 @media (max-width: 1000px) {
-  .fh{
+  .fh {
     height: 600px;
   }
 
 }
-  

@@ -1,18 +1,21 @@
-.pic{
-    height:"800px" ;
-    width:"auto"
+.pic {
+    height: "800px";
+    width: "auto"
 }
-.bgs{
-    height:"570px";
-    width:"100%";
+
+.bgs {
+    height: "570px";
+    width: "100%";
 }
+
 @media (max-width: 768px) {
-    .bgs{
+    .bgs {
         width: "600px";
     }
-    .pic{
-        height:"300px" ;
-        width:"auto"
+
+    .pic {
+        height: "300px";
+        width: "auto"
     }
 
 
