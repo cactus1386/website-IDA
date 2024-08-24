@@ -1,0 +1,105 @@
+.custom-navbar {
+    background-color: #ffffff;
+    padding: 1rem 5rem;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.navItems{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.navbar-nav .nav-link {
+    color: #000000 !important;
+    font-size: 1.1rem;
+    margin: 0 2rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #008cff !important;
+}
+
+.navdis {
+    position: relative;
+    z-index: 10;
+}
+
+@media (max-width: 768px) {
+    .custom-navbar {
+        padding: 1rem 2rem;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-nav .nav-link {
+        margin: 0.5rem 0;
+        font-size: 1rem;
+    }
+}
+.bordrer{
+    border-radius: 26px;
+    height: 500px;
+}
+.pic{
+    height: 500px;
+    width:auto;
+}
+.picbg{
+    border-radius: 54% 60% 14% 86% / 100% 44% 56% 0%  ;
+    background-color: #21f2ff;
+    margin-right: 50px;
+    
+}
+.text-container{
+    margin-top: 90px;
+}
+.text5{
+    font-size: 5rem;
+}
+
+.text3{
+    font-size: 3rem;
+}
+.ws{
+    word-spacing: 1rem;
+    line-height: 2rem;
+    list-style-position: initial;
+}
+.bgc{
+    background: rgb(64,201,255);
+    background: linear-gradient(90deg, rgba(64,201,255,1) 0%, rgba(232,28,255,1) 100%);
+}
+.wavebg{
+    background-image: url('../Assets/Untitled-1.png');
+    position: relative;
+    height: 500px;
+    width: auto;
+    background-size:cover;
+}
+.skillbg{
+    background-image: url('../Assets/skills.png');
+    position: relative;
+    height: 500px;
+    width: auto;
+    background-size:cover;
+}
+
+.usbg{
+    background-image: url('../Assets/contact.png');
+    position: relative;
+    height: 500px;
+    width: auto;
+    background-size:cover;
+}
+
+.hre{
+    text-decoration: none;
+    color: #000000;
+}
