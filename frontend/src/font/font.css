@@ -1,8 +1,0 @@
-@font-face {
-    font-family: 'Font' ;
-    src: url(./Font.woff)
-}
-
-.fontv {
-    font-family: Font,Consolas ;
-}
